@@ -34,6 +34,10 @@
   "application/a2l": {
     "source": "iana"
   },
+  "application/aas+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/ace+cbor": {
     "source": "iana"
   },
@@ -359,6 +363,17 @@
   "application/city+json-seq": {
     "source": "iana"
   },
+  "application/client-authentication+jwt": {
+    "source": "iana"
+  },
+  "application/cloudevents+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/cloudevents-batch+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/clr": {
     "source": "iana"
   },
@@ -370,7 +385,23 @@
     "source": "iana",
     "compressible": true
   },
+  "application/cmcd": {
+    "source": "iana"
+  },
   "application/cms": {
+    "source": "iana"
+  },
+  "application/cmw+cbor": {
+    "source": "iana"
+  },
+  "application/cmw+cose": {
+    "source": "iana"
+  },
+  "application/cmw+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/cmw+jws": {
     "source": "iana"
   },
   "application/cnrp+xml": {
@@ -669,6 +700,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/explicit-registration-response+jwt": {
+    "source": "iana"
+  },
   "application/express": {
     "source": "iana",
     "extensions": ["exp"]
@@ -936,6 +970,9 @@
   "application/jsonpath": {
     "source": "iana"
   },
+  "application/jumbf": {
+    "source": "iana"
+  },
   "application/jwk+json": {
     "source": "iana",
     "compressible": true
@@ -1104,6 +1141,13 @@
   "application/mbox": {
     "source": "iana",
     "extensions": ["mbox"]
+  },
+  "application/measured-component+cbor": {
+    "source": "iana"
+  },
+  "application/measured-component+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/media-policy-dataset+xml": {
     "source": "iana",
@@ -1284,7 +1328,7 @@
   "application/octet-stream": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","exe","dll","deb","dmg","iso","img","msi","msp","msm","buffer"]
+    "extensions": ["bin","dms","lrf","mar","so","dist","distz","pkg","bpk","dump","elc","deploy","exe","dll","deb","dmg","iso","img","msi","msp","msm","buffer","ipa"]
   },
   "application/oda": {
     "source": "iana",
@@ -1487,6 +1531,9 @@
   "application/prs.alvestrand.titrax-sheet": {
     "source": "iana"
   },
+  "application/prs.bwtc32key": {
+    "source": "iana"
+  },
   "application/prs.cww": {
     "source": "iana",
     "extensions": ["cww"]
@@ -1529,6 +1576,9 @@
     "source": "iana"
   },
   "application/prs.rdf-xml-crypt": {
+    "source": "iana"
+  },
+  "application/prs.sclt": {
     "source": "iana"
   },
   "application/prs.vcfbzip2": {
@@ -1612,6 +1662,14 @@
     "compressible": true,
     "extensions": ["rs"]
   },
+  "application/roughtime-malfeasance+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/roughtime-server+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/route-apd+xml": {
     "source": "iana",
     "compressible": true,
@@ -1626,6 +1684,12 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["rusd"]
+  },
+  "application/rpki-ccr": {
+    "source": "iana"
+  },
+  "application/rpki-ccr+gzip": {
+    "source": "iana"
   },
   "application/rpki-checklist": {
     "source": "iana"
@@ -1871,6 +1935,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/spdx3+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/spirits-event+xml": {
     "source": "iana",
     "compressible": true
@@ -1909,6 +1977,12 @@
   "application/st2110-41": {
     "source": "iana"
   },
+  "application/statuslist+cwt": {
+    "source": "iana"
+  },
+  "application/statuslist+jwt": {
+    "source": "iana"
+  },
   "application/stix+json": {
     "source": "iana",
     "compressible": true
@@ -1919,6 +1993,9 @@
   "application/suit-envelope+cose": {
     "source": "iana"
   },
+  "application/suit-report+cose": {
+    "source": "iana"
+  },
   "application/swid+cbor": {
     "source": "iana"
   },
@@ -1926,6 +2003,9 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["swidtag"]
+  },
+  "application/syslog-msg": {
+    "source": "iana"
   },
   "application/tamp-apex-update": {
     "source": "iana"
@@ -1970,6 +2050,9 @@
   "application/td+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/teep+cbor": {
+    "source": "iana"
   },
   "application/tei+xml": {
     "source": "iana",
@@ -2039,6 +2122,9 @@
   "application/trust-mark-delegation+jwt": {
     "source": "iana"
   },
+  "application/trust-mark-status-response+jwt": {
+    "source": "iana"
+  },
   "application/ttml+xml": {
     "source": "iana",
     "compressible": true,
@@ -2085,6 +2171,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/v3c": {
+    "source": "iana"
+  },
   "application/vc": {
     "source": "iana"
   },
@@ -2092,6 +2181,9 @@
     "source": "iana"
   },
   "application/vc+jwt": {
+    "source": "iana"
+  },
+  "application/vc+sd-jwt": {
     "source": "iana"
   },
   "application/vcard+json": {
@@ -2276,6 +2368,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.3gpp.mcs-location-user-config+xml": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.3gpp.mcvideo-affiliation-command+xml": {
     "source": "iana",
     "compressible": true
@@ -2442,6 +2538,9 @@
     "source": "iana",
     "extensions": ["pwn"]
   },
+  "application/vnd.abdalsecuritygroup.lockbox": {
+    "source": "iana"
+  },
   "application/vnd.accpac.simply.aso": {
     "source": "iana",
     "extensions": ["aso"]
@@ -2540,12 +2639,22 @@
     "source": "iana",
     "extensions": ["age"]
   },
+  "application/vnd.agtp.identity+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.agtp.identity+yaml": {
+    "source": "iana"
+  },
   "application/vnd.ah-barcode": {
     "source": "apache"
   },
   "application/vnd.ahead.space": {
     "source": "iana",
     "extensions": ["ahead"]
+  },
+  "application/vnd.aia": {
+    "source": "iana"
   },
   "application/vnd.airzip.filesecure.azf": {
     "source": "iana",
@@ -2659,6 +2768,9 @@
     "compressible": false,
     "extensions": ["pkpass"]
   },
+  "application/vnd.apple.steering-list": {
+    "source": "iana"
+  },
   "application/vnd.arastra.swi": {
     "source": "apache"
   },
@@ -2692,6 +2804,9 @@
   "application/vnd.audiograph": {
     "source": "iana",
     "extensions": ["aep"]
+  },
+  "application/vnd.aumtrix.aum": {
+    "source": "iana"
   },
   "application/vnd.autodesk.fbx": {
     "extensions": ["fbx"]
@@ -2748,6 +2863,9 @@
     "compressible": true
   },
   "application/vnd.blink-idb-value-wrapper": {
+    "source": "iana"
+  },
+  "application/vnd.blockfact.facts": {
     "source": "iana"
   },
   "application/vnd.blueice.multipass": {
@@ -2853,6 +2971,19 @@
   "application/vnd.cluetrust.cartomobile-config-pkg": {
     "source": "iana",
     "extensions": ["c11amz"]
+  },
+  "application/vnd.cmmf-configuration-information+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.cmmf-efd+xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["efd"]
+  },
+  "application/vnd.cmmf-encoder-configuration+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.cncf.helm.chart.content.v1.tar+gzip": {
     "source": "iana"
@@ -2996,6 +3127,12 @@
     "source": "apache",
     "extensions": ["pcurl"]
   },
+  "application/vnd.cxtf": {
+    "source": "iana"
+  },
+  "application/vnd.cxzip": {
+    "source": "iana"
+  },
   "application/vnd.cyan.dean.root+xml": {
     "source": "iana",
     "compressible": true
@@ -3076,6 +3213,17 @@
   },
   "application/vnd.desmume.movie": {
     "source": "iana"
+  },
+  "application/vnd.deut+json": {
+    "source": "iana",
+    "compressible": true
+  },
+  "application/vnd.dgl": {
+    "source": "iana"
+  },
+  "application/vnd.digitalstack.document+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.dir-bi.plate-dl-nosuffix": {
     "source": "iana"
@@ -3241,6 +3389,10 @@
   },
   "application/vnd.ecowin.seriesupdate": {
     "source": "iana"
+  },
+  "application/vnd.edulith.edux+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.efi.img": {
     "source": "iana"
@@ -3424,6 +3576,12 @@
   "application/vnd.faf+yaml": {
     "source": "iana"
   },
+  "application/vnd.fafa+yaml": {
+    "source": "iana"
+  },
+  "application/vnd.fafm+yaml": {
+    "source": "iana"
+  },
   "application/vnd.familysearch.gedcom+zip": {
     "source": "iana",
     "compressible": false
@@ -3476,6 +3634,9 @@
     "extensions": ["ftc"]
   },
   "application/vnd.font-fontforge-sfd": {
+    "source": "iana"
+  },
+  "application/vnd.foritech.container": {
     "source": "iana"
   },
   "application/vnd.framemaker": {
@@ -3741,6 +3902,9 @@
     "compressible": true,
     "extensions": ["xdcf"]
   },
+  "application/vnd.gp3": {
+    "source": "iana"
+  },
   "application/vnd.gpxsee.map+xml": {
     "source": "iana",
     "compressible": true
@@ -3803,6 +3967,12 @@
     "compressible": true
   },
   "application/vnd.hcl-bireports": {
+    "source": "iana"
+  },
+  "application/vnd.hdfgroup.hdf4": {
+    "source": "iana"
+  },
+  "application/vnd.hdfgroup.hdf5": {
     "source": "iana"
   },
   "application/vnd.hdt": {
@@ -4233,9 +4403,16 @@
     "source": "iana",
     "extensions": ["lwp"]
   },
+  "application/vnd.lukuid.package+zip": {
+    "source": "iana",
+    "compressible": false
+  },
   "application/vnd.macports.portpkg": {
     "source": "iana",
     "extensions": ["portpkg"]
+  },
+  "application/vnd.majikah.bundle": {
+    "source": "iana"
   },
   "application/vnd.maml": {
     "source": "iana"
@@ -4366,6 +4543,9 @@
     "extensions": ["txf"]
   },
   "application/vnd.modl": {
+    "source": "iana"
+  },
+  "application/vnd.mohnetic": {
     "source": "iana"
   },
   "application/vnd.mophun.application": {
@@ -4659,6 +4839,10 @@
   "application/vnd.neurolanguage.nlu": {
     "source": "iana",
     "extensions": ["nlu"]
+  },
+  "application/vnd.nila.protobuf-bundle+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.nimn": {
     "source": "iana"
@@ -5477,6 +5661,9 @@
   "application/vnd.paos.xml": {
     "source": "iana"
   },
+  "application/vnd.pasti-stx-disk-image": {
+    "source": "iana"
+  },
   "application/vnd.patentdive": {
     "source": "iana"
   },
@@ -5497,6 +5684,11 @@
   "application/vnd.pg.osasli": {
     "source": "iana",
     "extensions": ["ei6"]
+  },
+  "application/vnd.phbk+xml": {
+    "source": "iana",
+    "compressible": true,
+    "extensions": ["phbk"]
   },
   "application/vnd.piaccess.application-licence": {
     "source": "iana"
@@ -5519,6 +5711,10 @@
   "application/vnd.pocketlearn": {
     "source": "iana",
     "extensions": ["plf"]
+  },
+  "application/vnd.portableweb+zip": {
+    "source": "iana",
+    "compressible": false
   },
   "application/vnd.powerbuilder6": {
     "source": "iana",
@@ -5692,6 +5888,9 @@
     "source": "iana",
     "compressible": true,
     "extensions": ["musicxml"]
+  },
+  "application/vnd.rego": {
+    "source": "iana"
   },
   "application/vnd.relpipe": {
     "source": "iana"
@@ -5872,6 +6071,9 @@
   "application/vnd.snesdev-page-table": {
     "source": "iana"
   },
+  "application/vnd.softpres-ipf-disk-image": {
+    "source": "iana"
+  },
   "application/vnd.software602.filler.form+xml": {
     "source": "iana",
     "compressible": true,
@@ -5896,6 +6098,9 @@
   "application/vnd.sqlite3": {
     "source": "iana",
     "extensions": ["sqlite","sqlite3"]
+  },
+  "application/vnd.sri": {
+    "source": "iana"
   },
   "application/vnd.sss-cod": {
     "source": "iana"
@@ -5986,6 +6191,9 @@
     "source": "apache",
     "extensions": ["stw"]
   },
+  "application/vnd.supercard-pro-disk-image": {
+    "source": "iana"
+  },
   "application/vnd.superfile.super": {
     "source": "iana"
   },
@@ -5996,6 +6204,10 @@
   "application/vnd.svd": {
     "source": "iana",
     "extensions": ["svd"]
+  },
+  "application/vnd.svr.receipt+json": {
+    "source": "iana",
+    "compressible": true
   },
   "application/vnd.swiftview-ics": {
     "source": "iana"
@@ -6107,9 +6319,18 @@
     "source": "iana",
     "extensions": ["ufd","ufdl"]
   },
+  "application/vnd.uic.dosipas.v1": {
+    "source": "iana"
+  },
+  "application/vnd.uic.dosipas.v2": {
+    "source": "iana"
+  },
   "application/vnd.uic.osdm+json": {
     "source": "iana",
     "compressible": true
+  },
+  "application/vnd.uic.tlb-fcb": {
+    "source": "iana"
   },
   "application/vnd.uiq.theme": {
     "source": "iana",
@@ -6187,6 +6408,10 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.veraison.nvidia-gpu-evidence+json": {
+    "source": "iana",
+    "compressible": true
+  },
   "application/vnd.veraison.tsm-report+cbor": {
     "source": "iana"
   },
@@ -6204,6 +6429,9 @@
     "source": "iana",
     "compressible": true
   },
+  "application/vnd.vertifile.pvf": {
+    "source": "iana"
+  },
   "application/vnd.veryant.thin": {
     "source": "iana"
   },
@@ -6211,6 +6439,9 @@
     "source": "iana"
   },
   "application/vnd.vidsoft.vidconference": {
+    "source": "iana"
+  },
+  "application/vnd.vimina.vma": {
     "source": "iana"
   },
   "application/vnd.visio": {
@@ -6334,6 +6565,9 @@
   "application/vnd.xarin.cpj": {
     "source": "iana"
   },
+  "application/vnd.xcdn": {
+    "source": "iana"
+  },
   "application/vnd.xecrets-encrypted": {
     "source": "iana"
   },
@@ -6408,6 +6642,15 @@
     "source": "iana",
     "extensions": ["cmp"]
   },
+  "application/vnd.zoho-document.writer": {
+    "source": "iana"
+  },
+  "application/vnd.zoho-presentation.show": {
+    "source": "iana"
+  },
+  "application/vnd.zoho.spreadsheetml.sheet": {
+    "source": "iana"
+  },
   "application/vnd.zul": {
     "source": "iana",
     "extensions": ["zir","zirz"]
@@ -6437,6 +6680,9 @@
     "source": "iana"
   },
   "application/vp+jwt": {
+    "source": "iana"
+  },
+  "application/vp+sd-jwt": {
     "source": "iana"
   },
   "application/vq-rtcpxr": {
@@ -7542,6 +7788,9 @@
   "audio/pcmu-wb": {
     "source": "iana"
   },
+  "audio/prs.aaud": {
+    "source": "iana"
+  },
   "audio/prs.sid": {
     "source": "iana"
   },
@@ -7587,6 +7836,9 @@
     "source": "iana"
   },
   "audio/sofa": {
+    "source": "iana"
+  },
+  "audio/soundfont": {
     "source": "iana"
   },
   "audio/sp-midi": {
@@ -8079,6 +8331,10 @@
     "compressible": false,
     "extensions": ["png"]
   },
+  "image/prs.aimg": {
+    "source": "iana",
+    "extensions": ["aimg"]
+  },
   "image/prs.btif": {
     "source": "iana",
     "extensions": ["btif","btf"]
@@ -8215,6 +8471,9 @@
     "source": "iana"
   },
   "image/vnd.sealedmedia.softseal.jpg": {
+    "source": "iana"
+  },
+  "image/vnd.sld": {
     "source": "iana"
   },
   "image/vnd.svf": {
@@ -8388,6 +8647,12 @@
   },
   "message/news": {
     "source": "apache"
+  },
+  "message/ohttp-chunked-req": {
+    "source": "iana"
+  },
+  "message/ohttp-chunked-res": {
+    "source": "iana"
   },
   "message/ohttp-req": {
     "source": "iana"
@@ -8900,6 +9165,9 @@
   "text/vnd.ascii-art": {
     "source": "iana"
   },
+  "text/vnd.bovnar": {
+    "source": "iana"
+  },
   "text/vnd.curl": {
     "source": "iana",
     "extensions": ["curl"]
@@ -8949,6 +9217,9 @@
     "source": "iana",
     "extensions": ["flx"]
   },
+  "text/vnd.gist.mx": {
+    "source": "iana"
+  },
   "text/vnd.gml": {
     "source": "iana"
   },
@@ -8957,6 +9228,9 @@
     "extensions": ["gv"]
   },
   "text/vnd.hans": {
+    "source": "iana"
+  },
+  "text/vnd.hekaya": {
     "source": "iana"
   },
   "text/vnd.hgl": {
@@ -8977,6 +9251,9 @@
     "source": "iana"
   },
   "text/vnd.latex-z": {
+    "source": "iana"
+  },
+  "text/vnd.longform": {
     "source": "iana"
   },
   "text/vnd.motorola.reflex": {
@@ -9005,6 +9282,9 @@
     "charset": "UTF-8",
     "extensions": ["jad"]
   },
+  "text/vnd.tps": {
+    "source": "iana"
+  },
   "text/vnd.trolltech.linguist": {
     "source": "iana",
     "charset": "UTF-8"
@@ -9013,6 +9293,9 @@
     "source": "iana"
   },
   "text/vnd.vcf": {
+    "source": "iana"
+  },
+  "text/vnd.vri": {
     "source": "iana"
   },
   "text/vnd.wap.si": {
@@ -9052,6 +9335,7 @@
   },
   "text/x-component": {
     "source": "nginx",
+    "compressible": true,
     "extensions": ["htc"]
   },
   "text/x-fortran": {
@@ -9094,6 +9378,10 @@
     "source": "apache",
     "extensions": ["p","pas"]
   },
+  "text/x-php": {
+    "compressible": true,
+    "extensions": ["php"]
+  },
   "text/x-processing": {
     "compressible": true,
     "extensions": ["pde"]
@@ -9131,7 +9419,7 @@
   "text/xml": {
     "source": "iana",
     "compressible": true,
-    "extensions": ["xml"]
+    "extensions": ["xml","plist"]
   },
   "text/xml-external-parsed-entity": {
     "source": "iana"
@@ -9287,6 +9575,9 @@
     "source": "iana"
   },
   "video/pointer": {
+    "source": "iana"
+  },
+  "video/prs.avid": {
     "source": "iana"
   },
   "video/quicktime": {
